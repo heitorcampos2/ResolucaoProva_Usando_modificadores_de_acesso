@@ -10,7 +10,7 @@ public class Pessoa {
         return this.nome;
     }
     
-    public void mostrarPessoa(){
+    public void MostrarPessoa(){
         System.out.println("Pessoa: "+this.getNome());
         System.out.println("Data de nascimento: ");
         this.getDataDeNascimento().mostrarData();
