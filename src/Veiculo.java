@@ -13,7 +13,21 @@ public class Veiculo {
 
     public String getFinalidade(){
         return this.finalidade;        
-    }    
+    }
+
+    public boolean InformarFinalidade(String f){
+        String c;
+            
+        this.finalidade = f;
+        
+        c="Passeio";
+        
+            if(this.finalidade == c){
+                return true;
+            } else {
+                return false;
+            }
+    }
     
     public void MostrarVeiculo(){
         System.out.println("Proprietário do Veículo");
@@ -21,6 +35,9 @@ public class Veiculo {
         
         System.out.println("Data de aquisição: ");
         this.getDtaAquisicao().mostrarData();
+ 
+        System.out.println("Finalidade: ");
+        this.getFinalidade().InformarFinalidade();   
         
         
     }
