@@ -13,7 +13,7 @@ public class Veiculo {
     private Pessoa proprietario;
     private String finalidade;
     /////////////////////////////////////
-    public Data getDtaAquisicao(){
+    public Data getDataAquisicao(){
         return this.dataAquisicao;        
     }
 
@@ -52,7 +52,7 @@ public class Veiculo {
         this.getProprietario().MostrarPessoa();
         
         System.out.println("Data de aquisição: ");
-        this.getDtaAquisicao().MostrarData();
+        this.getDataAquisicao().MostrarData();
  
         System.out.println("Finalidade: ");
         this.getFinalidade(); 
