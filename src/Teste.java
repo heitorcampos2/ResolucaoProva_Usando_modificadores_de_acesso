@@ -11,27 +11,27 @@
 public class Teste {
     public static void main(String[] args){
         /////////////////////////////////////
-        Pessoa p1 = new Pessoa();
-        p1.setNome("Fulano");
+        Pessoa p = new Pessoa();
+        p.setNome("Fulano");
         
-        Data p01 = new Data();
-        p01.getDia(05);
-        p01.getMes(08);
-        p01.getAno(1997);
-        p1.setDataDeNascimento(p01);
-        /////////////////////////////////////
-        Veiculo l = new Veiculo();
-        l.setProprietario(p1);
+        Data d = new Data();
+        d.setDia(3);
+        d.setMes(4);
+        d.setAno(1997);
+        p.setDataDeNascimento(d);
         
-        Data da = new Data();
-        da.getDia(01);
-        da.getMes(02);
-        da.getAno(2019);
-        l.getDtaAquisicao(da);
+        Veiculo v = new Veiculo();
+        v.setProprietario(p);
+        
+        Data d1 = new Data();
+        d1.setDia(1);
+        d1.setMes(2);
+        d1.setAno(2019);
+        v.setDataAquisicao(d1);
         /////////////////////////////////////
-        p1.MostrarPessoa();
-        l.InformarFinalidade("Passeio");
-        l.MostrarVeiculo();
+        p.MostrarPessoa();
+        v.InformarFinalidade("Passeio");
+        v.MostrarVeiculo();
         
     }
 }
