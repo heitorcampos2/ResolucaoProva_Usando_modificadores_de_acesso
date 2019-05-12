@@ -38,12 +38,13 @@ public class Veiculo {
     }
     /////////////////////////////////////
     public boolean InformarFinalidade(String f){
-        if((f == "Passeio")||(f == "Diplomacia")||(f == "Aluguel")){
-            this.finalidade = f;
-            return true;
-        } else{
-            return false;
-        }
+    this.finalidade = f;
+    String outro;
+    outro = "Passeio";
+          if(this.finalidade.equals(outro)){
+               return true;
+         } 
+             return false;
     }
     /////////////////////////////////////
     public void MostrarVeiculo(){
