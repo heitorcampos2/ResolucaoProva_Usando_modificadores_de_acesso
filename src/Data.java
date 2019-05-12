@@ -27,7 +27,7 @@ public class Data {
         this.dia=a;
     }
     /////////////////////////////////////
-    public void mostrarData(){
+    public void MostrarData(){
         System.out.println(this.getDia()+"/"+this.getMes()+"/"+this.getAno());
     }
     /////////////////////////////////////

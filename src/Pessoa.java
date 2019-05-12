@@ -21,7 +21,7 @@ public class Pessoa {
     public void MostrarPessoa(){
         System.out.println("Pessoa: "+this.getNome());
         System.out.println("Data de nascimento: ");
-        this.getDataDeNascimento().mostrarData();
+        this.getDataDeNascimento().MostrarData();
     }
     /////////////////////////////////////
 }
