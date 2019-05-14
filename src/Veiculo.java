@@ -49,7 +49,7 @@ public class Veiculo {
     }
     /////////////////////////////////////
     public void MostrarVeiculo(){
-        System.out.println("Proprietário do Veículo");
+        System.out.println("Proprietário do Veículo:");
         this.getProprietario().MostrarPessoa();
         
         System.out.println("Data de aquisição: ");
