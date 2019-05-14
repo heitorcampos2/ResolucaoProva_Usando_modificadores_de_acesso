@@ -43,21 +43,20 @@ public class Veiculo {
     String outro;
     outro = "Passeio";
           if(this.finalidade.equals(outro)){
+              System.out.println("Finalidade do veículo : " + this.finalidade);
                return true;
-         } 
+         }      
              return false;
+    
     }
     /////////////////////////////////////
     public void MostrarVeiculo(){
-        System.out.println("Proprietário do Veículo:");
+        System.out.println("PROPRIETÁRIO E INFORMAÇÕES DO VEÍCULO\n=========================================");
         this.getProprietario().MostrarPessoa();
         
         System.out.println("Data de aquisição: ");
         this.getDataAquisicao().MostrarData();
- 
-        System.out.println("Finalidade: ");
-        this.getFinalidade(); 
-    }
+     }
     /////////////////////////////////////
     
 }

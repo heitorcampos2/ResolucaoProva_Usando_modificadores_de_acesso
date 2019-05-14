@@ -12,7 +12,7 @@ public class Teste {
     public static void main(String[] args){
         /////////////////////////////////////
         Pessoa p = new Pessoa();
-        p.setNome("Fulano");
+        p.setNome("Fulaninho da Silva Cicranu");
         
         Data d = new Data();
         d.setDia(3);
@@ -29,10 +29,7 @@ public class Teste {
         d1.setAno(2019);
         v.setDataAquisicao(d1);
         /////////////////////////////////////
-        p.MostrarPessoa();
-        v.InformarFinalidade("Passeio");
         v.MostrarVeiculo();
-        
+        v.InformarFinalidade("Passeio");
     }
-
 }
