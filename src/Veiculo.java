@@ -9,6 +9,7 @@
  * @author HeiThor
  */
 public class Veiculo {
+    /////////////////////////////////////
     private Data dataAquisicao;
     private Pessoa proprietario;
     private String finalidade;

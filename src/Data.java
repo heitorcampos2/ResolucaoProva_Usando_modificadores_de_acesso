@@ -18,11 +18,11 @@ public class Data {
     }
     
     public int getMes(){
-        return this.dia;
+        return this.mes;
     }
         
     public int getAno(){
-        return this.dia;
+        return this.ano;
     }
     /////////////////////////////////////
     public void setDia(int d){
@@ -30,11 +30,11 @@ public class Data {
     }
     
     public void setMes(int m){
-        this.dia=m;
+        this.mes=m;
     }
     
     public void setAno(int a){
-        this.dia=a;
+        this.ano=a;
     }
     /////////////////////////////////////
     public void MostrarData(){
